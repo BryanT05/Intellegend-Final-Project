@@ -3,16 +3,16 @@
 EDA Data
 
 Summary dari EDA:
-Split training and unseen data (test data)
-Drop duplicated data
-Drop customerID
-PreferredLoginDevice: merubah category "Mobile Phone" menjadi "Phone"
-PreferredPaymentMode: merubah category CC menjadi Credit Card dan COD menjadi Cash on Delivery
-Handle missing value
-Feature selection: Tenure, CityTier, WarehouseToHome, Complain, DaySinceLastOrder, CashbackAmount
-Prevent multicolinearity
-Boxcox transform: Tenure, WarehouseToHome, DaySinceLastOrder
-Data sudah dilihat pada EDA bahwa tidak ada outlier ( data masuk akal dan terlihat nyata )
+- split training and unseen data (test data)
+- Drop duplicated data
+- Drop customerID
+- PreferredLoginDevice: merubah category "Mobile Phone" menjadi "Phone"
+- PreferredPaymentMode: merubah category CC menjadi Credit Card dan COD menjadi Cash on Delivery
+- Handle missing value
+- Feature selection: Tenure, CityTier, WarehouseToHome, Complain, DaySinceLastOrder, CashbackAmount
+- Prevent multicolinearity
+- boxcox transform: Tenure, WarehouseToHome, DaySinceLastOrder
+- data sudah dilihat pada EDA bahwa tidak ada outlier ( data masuk akal dan terlihat nyata )
 
 ## Stage 2
 Melakukan semua hal yang telah di list pada summary stage 1
